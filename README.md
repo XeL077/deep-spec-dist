@@ -5,7 +5,7 @@
 
 ## Установка
 
-1. Скачайте файл `deep-spec-0.0.3.vsix` из этого репозитория.
+1. Скачайте файл `deep-spec-0.0.4.vsix` из этого репозитория.
 2. Откройте Cursor или VS Code.
 3. `Ctrl+Shift+P` → **Extensions: Install from VSIX...**
 4. Выберите скачанный `.vsix`.
@@ -15,10 +15,10 @@
 
 ```bash
 # Cursor
-cursor --install-extension deep-spec-0.0.3.vsix
+cursor --install-extension deep-spec-0.0.4.vsix
 
 # VS Code
-code --install-extension deep-spec-0.0.3.vsix
+code --install-extension deep-spec-0.0.4.vsix
 ```
 
 ## Совместимость
@@ -32,7 +32,14 @@ Deep Spec — расширение для работы со спецификац
 
 ## Версия
 
-Текущий пакет: **0.0.3** (`deep-spec-0.0.3.vsix`)
+Текущий пакет: **0.0.4** (`deep-spec-0.0.4.vsix`)
+
+### 0.0.4
+
+- Контур аналитика: полные Quick Fixes для однозначных ошибок lint
+- **Где это · связи · охват** — поиск, справочник, граф, влияние, дыры охвата
+- Охват на «Состояние работ»; копирование `task-spec:` для PR
+- Превью автомата (SM) с карточки фичи
 
 ## Поддержка
 
